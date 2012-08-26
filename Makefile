@@ -1,4 +1,4 @@
-NAME = NameOfPdf
+NAME = Piotr-Yordanov-Resume
 
 compile: $(THREADOBJECTS)
 	gvim main.tex
