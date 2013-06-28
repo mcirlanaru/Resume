@@ -74,7 +74,7 @@
             includefoot, % Uncomment to put page number above margin
             marginparwidth=1.2in,     % Length of section titles
             marginparsep=.05in,       % Space between titles and text
-            margin=0.8in,               % 1 inch margins
+            margin=0.5in,               % 1 inch margins
             includemp]{geometry}
 
 %% Use these lines for A4-sized paper
@@ -206,10 +206,10 @@
 
 
 \begin{figure}%[4]
-        \vspace{-2.3cm}
-        \hspace{12.9cm}
-		\href{https://github.com/tUrG0n/portfolio}{\includegraphics[scale=0.7]{git.png}}
-		\vspace{-2.0cm}
+        \vspace{-1.3cm}
+      \hspace{13.4cm}
+    	\href{https://github.com/tUrG0n/portfolio}{\includegraphics[scale=0.7]{git.png}}
+		\vspace{-2.9cm}
 \end{figure}
 
 
@@ -237,11 +237,11 @@ Piotr Yordanov \hspace{8.50cm}piotr.yordanov@gmail.com
 %       (adjust it to your liking; default is 1.85in).
 %
 \newlength{\rcollength}\setlength{\rcollength}{1.65in}%
-\begin{tabular}[t]{@{}p{0.55\rcollength}p{0.55\rcollength}p{0.75\rcollength}p{1.5\rcollength}}
+\begin{tabular}[t]{@{}p{0.85\rcollength}p{0.85\rcollength}p{0.75\rcollength}p{0.75\rcollength}}
+\href{http://lb.linkedin.com/in/piotry}{\textit{Linkedin}} &
 \href{http://piotry.me}{\textit{Website} } & 
-\href{http://blog.piotry.me}{Blog}  &
-\href{http://resume.github.com/?tUrG0n}{\textit{\textbf{Github} r\'esum\'e} }
-& Linkedin: \href{http://lb.linkedin.com/in/piotry}{lb.linkedin.com/in/piotry} \\
+\href{http://blog.piotry.me}{\textit{Blog}}  &
+\href{http://resume.github.com/?tUrG0n}{\textit{Github r\'esum\'e} }\\
 \end{tabular} 
 
 \hspace{-3.25cm}
@@ -265,14 +265,13 @@ Piotr Yordanov \hspace{8.50cm}piotr.yordanov@gmail.com
 
 
 \section{Objective}
-After a couple of start-up experiences as a technical lead, I want to work in a company where I can have a big impact on consumers as a web Front-end Engineer and Designer
-
+After a couple of start-up experiences as a technical lead, I want to work in a consumer company where I can have an impact on millions of users.
 
 % Skills
 \section{Tech Skills}
-\textbf{Languages:} C++, java, javascript, coffeescript, jade, stylus, HTML5, CSS3
+\textbf{Languages:} C++, Java, Javascript, Coffeescript, Jade, Stylus, HTML5, CSS3
 
-\textbf{Frameworks:} node.js, backbone.js, Android dev, Mongodb.
+\textbf{Frameworks:} node.js, backbone.js, Android, Mongodb.
 
 % \textbf{AI:} Recommendation Systems, Preference Recognition, Machine-Leaning
 
@@ -281,60 +280,69 @@ After a couple of start-up experiences as a technical lead, I want to work in a 
 
 % Profressional Experience
 \section{Professional Experience}
-\textbf{Front-end Engineer and Designer at \href{http://pauseandshine.com/}{Pause \& Shine} \hfill \small April 2012 - June 2013} 
-\begin{outerlist}
-\item[] Built and \textbf{designed} the website and a \textbf{mobile optimized}  app.
-\end{outerlist}
+\textbf{Lead Engineer and Designer at \href{http://pauseandshine.com/}{Pause \& Shine} \hfill \small April 2012 - June 2013} 
+\vspace{0.1cm}
+\begin{innerlist}
+\item Taught myself web design: typography, colors and layout. 
+\item Used that knowledge to design and build the website, blog and marketing campaigns.
+\item Built and designed in 9 days a mobile optimized meditation app with reminders and audio.
+\end{innerlist}
 
 \vspace{0.2cm}
 \hspace{0.25cm}\textbf{\textit{Technologies}}: 
-HTML5, CSS3, nodejs, backbonejs, mongodb
+CSS3, HTML5, nodejs, backbonejs, mongodb
 
 \vspace{0.4cm}
 
 
-\textbf{Co-founder of \href{http://baytbaytak.com}{Baytbaytak} \hfill \small September 2012 - March 2013} 
-\begin{outerlist}
-\item[] Deployed the servers and databases.
-Built the website's backend \textbf{REST API's}, the frontend's \textbf{single page app} and integrated with the \textbf{gMaps API}. 
-Built an \textbf{admin} interface for the non-tech team to update the database data. Setup tools (analytics, monitoring etc..).
-I was involved in \textbf{strategic decisions} (design, team, marketing and sales).
-\end{outerlist}
+\textbf{Co-founder of \href{http://baytbaytak.com}{Baytbaytak} (Trulia of the middle east) \hfill \small Sep 2012 - March 2013} 
+\vspace{0.1cm}
+\begin{innerlist}
+\item Built a platform that helped people search for appartments on a map-based website.  
+\item Setup analytics to track customer behavior. This increased our conversion rates. 
+\item Responsible for testing and deploying the app, and involved in strategic decisions.
+\end{innerlist}
 
 \vspace{0.2cm}
 \hspace{0.25cm}\textbf{\textit{Technologies}}: 
-nodejs, backbonejs, mongodb, dpd, gMaps API, unix shell, ssh, git
+nodejs, backbonejs, mongodb, gMaps API, Google Analytics, Mixpanel
 
 \vspace{0.4cm}
 
 \textbf{
-  Software Engineer at \href{http://anghami.com/}{Anghami} 
+  Software Engineer at \href{http://anghami.com/}{Anghami}, (Spotify of the middle east)
   \hfill \small June 2012 - August 2013
 }
-\begin{outerlist}
-\item[] Built a \textbf{node.js} service that returns similar Artists, 
-Ablums and Tracks for every media in the database.
-\textbf{Recommendations} are based on lastfm's API and stored in mongodb.
-\end{outerlist}
+\vspace{0.1cm}
+\begin{innerlist}
+\item Researched state of the art techniques in recommendation systems.
+\item Tested available recommendation system technologies (Hadoop, Google compute engine)
+\item Built a recommender system using lastfm's API.
+\end{innerlist}
+
 
 \vspace{0.2cm}
 \hspace{0.25cm}\textbf{\textit{Technologies}}: 
-nodejs, winston, mongodb, lastfm API, REST API's
+nodejs, mongodb, lastfm API, REST API's
 
 \vspace{0.4cm}
 
-\textbf{Summer RI Scholar at the \href{http://www.ri.cmu.edu/}{Carnegie Mellon University Robotics Institute}}
-\begin{outerlist}
-\item[] Google Core AI Project. We built an \textit{Indoor Navigation application}
-\hfill \small Summer 2011 \\
-\textit{on Android Devices} that would predict the user's intended destination.
-I Ported a \textbf{Recommendation}
-algorithm to \textbf{Android} and integrated with a pathfinding and indoor localization service.
-\end{outerlist}
+\textbf{Summer Scholar at \href{http://www.ri.cmu.edu/}{Carnegie Mellon University, Robotics Institute}}
+
+\vspace{0.1cm}
+
+Google Core AI Project, a \textit{predictive indoor Navigation application}.
+\hfill \small Summer 2011
+
+\vspace{0.1cm}
+\begin{innerlist}
+\item Made the product available to mobile consumers by porting the technology to Android.
+\item Created a server-side prediction module that reduced the computational load on the client by 30x.
+\end{innerlist}
 
 \vspace{0.2cm}
 \hspace{0.25cm}\textbf{\textit{Technologies}}: 
-Java, android, HMM, MDP, \TeX{}
+Java, android, HMM, MDP
 
 %\vspace{0.6cm}
 
@@ -354,36 +362,23 @@ Java, android, HMM, MDP, \TeX{}
 
 \vspace{-0.1cm}
 
-% Organizations
-\section{Organizations} % (fold)
-Creator of the \href{https://www.facebook.com/groups/390113624411131/}{Lebanese OSS Dev} community. Github \href{https://github.com/Lebanese-OSS}{Presence}. (December 2012)
-\label{sec:section}
-
-\vspace{-0.2cm}
-
 % Publications
 \section{Publications} % (fold)
-KANNAN, Balajee; MENEGUZZI, Felipe; SYCARA, Katia; GNEGY, Chet; GLASGOW, Evan Donald and YORDANOV, Piotr. \href{http://www.ri.cmu.edu/pub_files/2011/12/percom-navigation-main.pdf}{\textbf{Predictive Indoor Navigation using Commercial Smart-phones}}, In: 28th Annual ACM Symposium on Applied Computing, 2013. 
+\href{http://www.ri.cmu.edu/}{\textbf{Carnegie Mellon University}} , Intelligent agent lab
+
+\begin{outerlist}
+    \item[] \href{http://www.ri.cmu.edu/pub_files/2011/12/percom-navigation-main.pdf}{Predictive Indoor Navigation using Commercial Smart-phones}, \\
+In: 28th Annual ACM Symposium on Applied Computing, 2013.
+\end{outerlist}
 \label{sec:section}
-
-\vspace{-0.1cm}
-
-% Awards
-\section{Awards} % (fold)
-Dean Honors List, \textit{Fall 2010-2011}, \textit{Spring 2010-2011}, \textit{Fall 2011-2012} \\
-Winner of Startup Weekend Beirut \textit{July 2012} and Startup Weekend Byblos \textit{March 2013}
-\label{sec:section}
-
 
 % Education
 \section{Education}
-\vspace{-0.4cm}
-
 %%% AUB
 \href{http://www.aub.edu.lb/}{\textbf{The American University of Beirut}},
 Beirut, Lebanon
 \begin{outerlist}
-    \item[] B.E., \href{http://webfea.fea.aub.edu.lb/ece/} {Electrical and Computer Engineering}, Class of 2012, \textit{GPA 3.3}
+    \item[] B.E., \href{http://webfea.fea.aub.edu.lb/ece/} {Electrical and Computer Engineering}, Class of 2012, 3 times on Dean's Honnor List
 \end{outerlist}
 
 \blankline
@@ -394,10 +389,26 @@ Beirut, Lebanon
 Beirut, Lebanon
 \begin{outerlist}
 \item[] 
-	\href{http://www.education.gouv.fr/cid143/le-baccalaureat.html}{French Baccalaureate}, Mention \textbf{`Tr\'es bien'} (High Distinction), 2008
+    \href{http://www.education.gouv.fr/cid143/le-baccalaureat.html}{French Baccalaureate}, Mention \textbf{`Tr\'es bien'} (High Distinction), 2008
 \end{outerlist}
 
-\blankline
+\vspace{-0.2cm}
+
+% Awards
+\section{Awards} % (fold)
+Winner of Startup Weekend Byblos \textit{March 2013}\\
+Winner of Startup Weekend Beirut \textit{July 2012} 
+\label{sec:section}
+
+\vspace{-0.1cm}
+
+% Organizations
+\section{Organizations} % (fold)
+Creator of the \href{https://www.facebook.com/groups/390113624411131/}{Lebanese Open Source Software Dev} community. (December 2012)
+\begin{outerlist}
+\item[] I rallied 80 people on a Facebook group, 24 members in a github \href{https://github.com/Lebanese-OSS}{organization} and we created 4 projects.
+\end{outerlist}
+\label{sec:section}
 
 
 %%% CNSM
